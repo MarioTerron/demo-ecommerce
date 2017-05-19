@@ -1,0 +1,9 @@
+nav.navbar.navbar-inverse.navbar-fixed-top
+  .container
+    .navbar-header.main-header
+      a.navbar-brand(href='/') E-Commerce Demo
+      .navbar-right.cart-status
+        p
+          i.glyphicon.glyphicon-shopping-cart
+          a(href="/cart") (#{ numberOfProducts ? numberOfProducts : 0 })
+           

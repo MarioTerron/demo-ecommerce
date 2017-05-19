@@ -1,0 +1,29 @@
+- var tax = 21
+
+.panel.panel-default
+  .panel-heading.text-center
+    h4 Review Order
+  .panel-body
+    .col-md-12
+      strong Subtotal (#{cart.length} item)
+      .pull-right
+        span $
+        span #{totalOfOrder}
+    .col-md-12
+      strong Tax
+      .pull-right
+        span %
+        span #{tax}
+    .col-md-12
+      small Shipping
+      .pull-right
+        span -
+      hr
+    .col-md-12
+      strong Order Total
+      .pull-right
+        span $
+        span #{((totalOfOrder * (tax/100)) + totalOfOrder).toFixed(2)}
+      hr
+    button.btn.btn-primary.btn-lg.btn-block(type='button') Checkout
+
