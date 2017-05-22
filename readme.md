@@ -29,7 +29,7 @@ This will server static files under `public` folder and will listen to several e
 
 All these endpoints will start locally w/ `http://localhost:3000` 
 
-Example: `http://localhost:3000/tasks`
+Example: `http://localhost:3000/cart`
 
 ### GET endpoints
 
@@ -44,7 +44,7 @@ Get specific taks per id
 
 ### POST endpoints
 
-#### [POST] `/cart` (http://localhost:3000/tasks)
+#### [POST] `/cart`
 
 To add a item to the cart
 
