@@ -14,7 +14,7 @@
 
 # E-Commerce Cart
 
-A simple e-commerce cart **build with ES6, Pug, CSS3 and Express.js** at Skylab Coders Academy Full Stack Web Development Bootcamp.
+A simple e-commerce cart **build with ES6, Pug, CSS3 and Express.js** at [Skylab Coders Academy](http://www.skylabcoders.com) Full Stack Web Development Bootcamp.
 
 ---
 
