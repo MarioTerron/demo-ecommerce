@@ -54,7 +54,7 @@ app.get('/', (req, res) => {
   res.render('list/index', { products, cart, numberOfProducts })
 })
 
-app.post('/cart-ajax', (req, res) => {
+app.post('/cart', (req, res) => {
   const { id, quantity } = req.body
   req.session.cart.push({ id, quantity})
   res.status(200).send(`Added ${quantity} items to the cart`)
