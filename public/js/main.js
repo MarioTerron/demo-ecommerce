@@ -4,7 +4,7 @@ console.log('the main.js file is loaded...')
 
 $('.add-to-cart-ajax').on('submit', function (e) {
   e.preventDefault()
-  const url = '/cart-ajax'
+  const url = '/cart'
   const id = $(this).find("[name='id']").val()
   const quantity = $(this).find("[name='quantity']").val()
   $.ajax({
