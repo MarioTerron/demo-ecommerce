@@ -14,7 +14,7 @@
 
 # E-Commerce Cart
 
-A simple e-commerce cart **build with ES6, Pug, CSS3 and Express.js** at Skylab Coders Academy Full Stack Web Development Bootcamp
+A simple e-commerce cart **build with ES6, Pug, CSS3 and Express.js** at Skylab Coders Academy Full Stack Web Development Bootcamp.
 
 ---
 
@@ -23,7 +23,7 @@ A simple e-commerce cart **build with ES6, Pug, CSS3 and Express.js** at Skylab 
 2. Open your terminal and type `npm start` (it installs all npm and bower dependencies)
 3. Go to your browser and type `localhost:3000`
 
-This will server static files under `public` folder and will listen to several endopoint to allow clients interact w/ the data
+This will render the pug files into html and will listen to several endopoint to allow clients interact with the data.
 
 ## Actions available
 
@@ -39,14 +39,14 @@ Get list all items available.
 
 #### [GET] `/cart` 
 
-Get specific taks per id
+Get specific taks per id.
 
 
 ### POST endpoints
 
 #### [POST] `/cart`
 
-To add a item to the cart
+To add a item to the cart.
 
 
 ### PUT endpoints
